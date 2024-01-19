@@ -1,0 +1,19 @@
+Tue Jan 16 14:02:30 PST 2024
+USER
+clarissakung
+HOME
+/Users/clarissakung
+SHELL
+/bin/bash
+PWD
+/Users/clarissakung/Code/mcb185_homework
+PATH
+/Library/Frameworks/Python.framework/Versions/3.12/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin
+Darwin Clarissas-MacBook-Pro-4.local 23.2.0 Darwin Kernel Version 23.2.0: Wed Nov 15 21:53:18 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T6000 arm64
+Python 3.12.0
+/Users/clarissakung/Code
+/Users/clarissakung/Code/mcb185_homework
+/Users/clarissakung/Code/mcb185_homework/.git
+/Users/clarissakung/Code/MCB185
+/Users/clarissakung/Code/MCB185/.git
+/Users/clarissakung/Code/MCB185/data
