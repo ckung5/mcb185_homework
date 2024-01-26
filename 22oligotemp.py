@@ -4,7 +4,7 @@ def oligo_temp(a, t, c, g):
 	total_nt = a + t + c + g
 	
 	if total_nt <= 13: tm = (a + t)*2 + (g + c)*4
-	else: 			tm = 64.9 + 41 * (g + c - 16.4) / total_nt
+	else: 		  tm = 64.9 + 41 * (g + c - 16.4) / total_nt
 	return tm
 	
 	
