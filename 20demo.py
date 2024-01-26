@@ -80,7 +80,7 @@ print(type(c))
 
 def is_integer(x):
 	if x == x // 1: return True
-	return False
+ return False
 
 print(is_integer(5))
 
@@ -88,7 +88,7 @@ def is_odd(num):
 	return num % 2 != 0
 
 	if is_odd(num): return True
-	else:			return False
+	else:	return False
 		
 print(is_odd(7))
 		
@@ -96,7 +96,7 @@ def is_valid_probability(num):
 	return 0 <= num <= 1
 	
 	if is_valid_probability(p): return True
-	else:						return False
+	else:				return False
 		
 print(is_valid_probability(1.25))
 
