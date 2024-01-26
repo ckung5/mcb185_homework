@@ -3,13 +3,13 @@
 def accuracy(tp, fp, tn, fn):
 
 	if (tp + fp) > 0: precision = tp / (tp + fp)
-	else: 	precision = 0
+	else: 		precision = 0
 	
 	if (tp + fn) > 0: recall = tp / (tp + fn)
-	else: 	recall = 0
+	else: 		recall = 0
 	
 	if (precision + recall) > 0: f1_score = 2 * (precision * recall) / (precision + recall)
-	else: 			f1_score = 0
+	else: 				f1_score = 0
 	
 	return accuracy, f1_score
 	
