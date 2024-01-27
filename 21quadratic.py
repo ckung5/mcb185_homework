@@ -16,4 +16,4 @@ def quadratic(a, b, c):
 print(quadratic(1, -5, 3))
 print(quadratic(-2, 8, 4))
 print(quadratic(6, 8, -3))
-print(quadratic(-5, 6, -2))
+print(quadratic(-5, 6, -2)) # gives a negative discriminant
