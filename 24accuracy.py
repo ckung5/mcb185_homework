@@ -10,11 +10,11 @@ def performance(tp, fp, tn, fn):
 	
 	if (precision + recall) > 0: 
 		f1_score = 2 * (precision * recall) / (precision + recall)
-	else:  f1_score = 0
+	else:   f1_score = 0
 	
 	if (tp + fp + tn + fn) > 0: 
 		accuracy = (tp + tn) / (tp + fp + tn + fn)
-	else:  accuracy = 0
+	else:   accuracy = 0
 	
 	return accuracy, f1_score
 	
