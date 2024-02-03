@@ -13,5 +13,5 @@ def estimate_pi(iterations):
 	return result
 	
 print(estimate_pi(3))
-print(estimate_pi(22))
+print(estimate_pi(45))
 print(estimate_pi(100))

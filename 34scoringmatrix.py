@@ -3,7 +3,7 @@
 
 nts = 'ACGT'
 
-print('  ', end=' ')
+print('  ', end=' ') # space at beginning of header
 
 for nt in nts:
 	print(nt, end='  ')
