@@ -1,8 +1,13 @@
 # 32fibonacci.py by Clarissa Kung
 
-a, b = 0, 1
-n = 10
+a = 0
+b = 1
+i = 0
 
-for i in range(n):
+while(i < 10):
+	c = a + b
 	print(a)
-	a, b = b, a+b
+	a = b
+	b = c
+	i = i + 1
+	
