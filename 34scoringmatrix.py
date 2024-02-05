@@ -2,7 +2,6 @@
 # Worked together in student Coderie
 
 nts = 'ACGT'
-
 print('  ', end=' ') # space at beginning of header
 for nt in nts:
 	print(nt, end='  ')

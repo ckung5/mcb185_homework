@@ -1,6 +1,5 @@
 # 35nchoosek.py by Clarissa Kung
 
-
 def factorial(n):
 	total = 1
 	for i in range(1, n+1):
