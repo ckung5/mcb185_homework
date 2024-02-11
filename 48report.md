@@ -6,14 +6,14 @@ __45dndstats.py__
 - 3D6x2: 13.42559
 - 4D6d1: 12.23523
 
-46savingthrows.py
+__46savingthrows.py__
 | DC | normal | adv | dis |
 |:--:|:------:|:---:|:---:|
 | 5  | 0.799  |0.961|0.639|
 | 10 | 0.548  |0.798|0.303|
 | 15 | 0.299  |0.510|0.091|
 
-47deathsaves.py
+__47deathsaves.py__
 - die: 0.404
 - stabilize: 0.407
 - revive: 0.189
