@@ -13,13 +13,15 @@ for i in range(rolls):
 	
 	while True:
 		d = random.randint(1, 20)
-	
-		if d == 1: failures += 2
-		elif d == 20: 
+		if d == 1:
+			failures += 2
+		elif d == 20:
 			revive += 1
 			break
-		elif d >= 10: successes += 1
-		else: failures += 1
+		elif d >= 10:
+			successes += 1
+		else:
+			failures += 1
 	
 		if failures >= 3:
 			die += 1
