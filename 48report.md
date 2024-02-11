@@ -1,4 +1,4 @@
-_45dndstats.py Results_
+45dndstats.py Results
 - 3D6: 10.5153
 - 3D6r1: 11.7848
 - 3D6x2: 13.42559
