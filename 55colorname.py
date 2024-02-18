@@ -17,7 +17,7 @@ def dtc(P, Q):
 
 with open(colorfile, 'rt') as fp:
 	closest_color = 0
-	max_dist = 765 # white: 255 * 3
+	min_dist = 765 # initialized to maximum possible distance
 	for line in fp:
 		cols = line.split()
 		color = cols[0]
@@ -28,8 +28,8 @@ with open(colorfile, 'rt') as fp:
 		colorfile_rgb = [r_val, g_val, b_val] # list Q in dtc
 		
 		dist = dtc(input_rgb, colorfile_rgb)
-		if dist < max_dist:
-			max_dist = dist
+		if dist < min_dist:
+			min_dist = dist
 			closest_color = cols[0]
 			
 print(closest_color)
