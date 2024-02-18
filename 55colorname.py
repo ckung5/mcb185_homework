@@ -28,7 +28,7 @@ with open(colorfile, 'rt') as fp:
 		colorfile_rgb = [r_val, g_val, b_val] # list Q in dtc
 		
 		dist = dtc(input_rgb, colorfile_rgb)
-		if dist < min_dist:
+		if dist <= min_dist:
 			min_dist = dist
 			closest_color = cols[0]
 			
