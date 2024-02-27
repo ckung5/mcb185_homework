@@ -14,7 +14,7 @@ def six_frame_translation(dna):
 	for i in range(3):
 		frames.append(dogma.translate(dna[i:]))
 	
-	#Reverse frames
+	# Reverse frames
 	rev_dna = dogma.revcomp(dna)
 	for i in range(3):
 		frames.append(dogma.translate(rev_dna[i:]))

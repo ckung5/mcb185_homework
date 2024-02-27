@@ -8,7 +8,6 @@ path = sys.argv[1]
 windowsize = int(sys.argv[2])
 
 for defline, seq in mcb185.read_fasta(path):
-	
 	# Initial window
 	window = seq[:windowsize]
 	initial_gccomp = dogma.gc_comp(window)
