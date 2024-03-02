@@ -12,7 +12,7 @@ for i in range(trials):
 	calendar = []
 	for j in range(days):
 		calendar.append(0)
-	for k in range(people):
+	for j in range(people):
 		bday = random.randint(0, days - 1)
 		calendar[bday] += 1
 		if calendar[bday] > 1:
